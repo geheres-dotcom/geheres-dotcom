@@ -1,3 +1,8 @@
+<!--
+  README de profil. Place ce fichier dans le repo public nommé geheres-dotcom.
+  Les liens pointent vers tes repos existants.
+-->
+
 ## Compétences / Skills
 
 - Langages : Python, C++, C#, TypeScript, SQL, VBA
@@ -27,6 +32,12 @@ Pricing of European, digital, American and Asian options through three engines: 
 Technologies : C++
 [Repository](https://github.com/geheres-dotcom/cpp-option-pricer)
 
+**Dashboard finance temps réel**
+Tableau de bord Streamlit récupérant des données de marché en temps réel, avec backtesting de stratégies, analyse de portefeuille et un rapport quotidien automatisé par cron, déployé sur un serveur Linux.
+A Streamlit dashboard that pulls market data in near real time, with strategy backtesting, portfolio analysis and an automated daily report via cron, deployed on a Linux server.
+Technologies : Python, Streamlit, Linux
+[Repository](https://github.com/geheres-dotcom/Dashboard-finance-temps-r-el)
+
 ### Machine learning
 
 **Machine Learning for Asset Management**
@@ -35,11 +46,14 @@ Comparison of linear regression (OLS) and regression trees to forecast the EUR/U
 Technologies : Python, scikit-learn
 [Repository](https://github.com/geheres-dotcom/ml-asset-management)
 
-### Logiciel et données
+**Prédiction de direction — action Apple**
+Prédiction de la direction journalière du cours d'Apple par arbres de décision, random forest et modèle de Markov, avec une validation temporelle sans biais de look-ahead.
+Predicting Apple's next-day price direction with decision trees, a random forest and a Markov model, using leakage-free time-series validation.
+Technologies : Python, scikit-learn
+[Repository](https://github.com/geheres-dotcom/aapl-direction-ml)
 
-**Prédiction prix Airbnb**
-Pipeline Python collectant les flux RSS de l'ANSSI, identifiant les CVE, les enrichissant via les API MITRE (CVSS, CWE) et EPSS, consolidant le tout dans un DataFrame pandas, puis produisant visualisations et alertes email.
-A Python pipeline that collects ANSSI RSS feeds, identifies CVEs, enriches them through the MITRE (CVSS, CWE) and EPSS APIs, consolidates everything into a pandas DataFrame, and produces visualizations and email alerts.
-Technologies : Python, pandas
-[Repository](https://github.com/geheres-dotcom/Airbnb)
-
+**Prédiction de prix — Airbnb**
+Prédiction du prix de location d'un logement Airbnb à partir de ses caractéristiques (régression linéaire puis SVR optimisé), avec un pipeline complet de nettoyage et de préparation des données.
+Predicting the rental price of an Airbnb listing from its features (linear regression then a tuned SVR), with a full data cleaning and preparation pipeline.
+Technologies : Python, scikit-learn
+[Repository](https://github.com/geheres-dotcom/airbnb-price-prediction)
