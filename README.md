@@ -41,7 +41,7 @@ Technologies : Python, scikit-learn
 Pipeline Python collectant les flux RSS de l'ANSSI, identifiant les CVE, les enrichissant via les API MITRE (CVSS, CWE) et EPSS, consolidant le tout dans un DataFrame pandas, puis produisant visualisations et alertes email.
 A Python pipeline that collects ANSSI RSS feeds, identifies CVEs, enriches them through the MITRE (CVSS, CWE) and EPSS APIs, consolidates everything into a pandas DataFrame, and produces visualizations and email alerts.
 Technologies : Python, pandas
-[Repository](https://github.com/geheres-dotcom/anssi-cve-analysis)
+[Repository](https://github.com/geheres-dotcom/Airbnb)
 
 ### Application
 
