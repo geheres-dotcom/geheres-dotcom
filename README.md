@@ -10,7 +10,7 @@
   └─────────────────────────────────────────────────────────────┘
 -->
 
-# Greg Romani — Financial Engineering & Quant Dev
+# Gregor Romani — Financial Engineering & Quant Dev
 
 > **FR** · Étudiant MSc Financial Engineering (ESILV), en stage en risque de contrepartie (CCR / xVA). Je code à la croisée de la finance quantitative, du machine learning et du développement applicatif.
 >
